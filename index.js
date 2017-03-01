@@ -24,4 +24,4 @@ app.post('/', function(req,res){
 	var redirectionURL = linkshort.addURLRedirection(req.body.originalURL); 
 	res.render('shortURL', { redirectionURL: redirectionURL });
 });
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
