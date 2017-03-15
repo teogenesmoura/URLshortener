@@ -17,6 +17,8 @@ run :)
 ```
 the app should now be running on http://localhost:3000
 
+Also, a live instance is running at http://teourlshortener.herokuapp.com/
+
 ## Deployment
 
 1 - Create a new account on Heroku
